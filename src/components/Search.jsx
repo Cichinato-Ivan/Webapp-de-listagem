@@ -1,11 +1,12 @@
 import React from 'react';
 
+import './Search.css';
 const Search = () => {
     return ( 
 
-        <div className="">
+        <div className="search-container">
             <input type="text" placeholder="Buscar ..."/>
-            <button>Buscar</button>
+            <button className="btn-search">Buscar</button>
         </div>
 
      );
