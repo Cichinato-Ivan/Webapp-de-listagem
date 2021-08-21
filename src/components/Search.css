@@ -1,23 +1,19 @@
 .search-container{
-    display: inline-block;
-    align-items:center;
+   margin: 15px 0 0 40px;
+   width: auto;
+   display: flex;
 }
 
-input{
-    width: 270px;
-    height: 23px;
-    margin-right: 0;
-    border-radius: 5px 0 0 5px;
+.search-input{
+    padding: 0 10px;
+    border-radius: 5px;
+    border: none;
+    flex: 2;
+    background-color: #444;
+    font-size: 16px;
 }
 
-.btn-search{
-    width: 90px;
-    height: 30px;
-    background-color: chartreuse;
-    border-radius: 0 15px 15px 0;
-    margin-left: 0;
-}
-
-.btn-search:hover{
-    background-color: greenyellow;
+.search-button-container{
+    margin-left: 10px;
+    flex: 1;
 }

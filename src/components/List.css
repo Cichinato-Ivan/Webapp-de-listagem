@@ -1,3 +1,8 @@
+.list-container{
+    flex: 2;
+    max-width: auto;
+}
+
 .list-itens{
     background-color: #444;
     margin: 8px 0;
@@ -5,7 +10,7 @@
     display: flex;
     border-radius: 5px;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
 }
 
 
