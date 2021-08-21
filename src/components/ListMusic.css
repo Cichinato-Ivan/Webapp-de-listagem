@@ -1,13 +1,17 @@
 .listMusic-container{
-    columns: 5;
+    height: 90%;
+    columns: 2;
 }
 
 .listMusic-items{
     background-color: #444;
-    max-width: 50%;
-    margin: 8px 0;
-    padding: 15px 20px;
+    width: 70px;
+    height: 90px;
+    margin-bottom: 15px;
+    padding-right: 80px;
     display: flex;
+    text-align: center;
+    border: 2px solid chartreuse;
     border-radius: 5px;
     color: #eee;
 }

@@ -33,7 +33,7 @@ const ListMusic = () => {
                             Artista:
                             Álbum:`,
                         ];
-    const listMusic = attributes.map((m) => <li className="listMusic-items">{m}</li>);
+    const listMusic = attributes.map((list) => <li key={list.toString} className="listMusic-items">{list}</li>);
 
     return(
         <ul className="listMusic-container">
