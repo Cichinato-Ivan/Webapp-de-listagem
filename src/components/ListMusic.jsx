@@ -2,23 +2,41 @@ import React from 'react';
 import './ListMusic.css';
 
 const ListMusic = () => {
-    const attributes = [`   Título:
+    const attributes = [   `Título:
                             Artista:
-                            Álbum:
-                        `];
-    const listMusic = attributes.map((m) => <li className="listMusic-container">{m}</li>);
+                            Álbum:`,
+                            `Título:
+                            Artista:
+                            Álbum:`,
+                            `Título:
+                            Artista:
+                            Álbum:`,
+                            `Título:
+                            Artista:
+                            Álbum:`,
+                            `Título:
+                            Artista:
+                            Álbum:`,
+                            `Título:
+                            Artista:
+                            Álbum:`,
+                            `Título:
+                            Artista:
+                            Álbum:`,
+                            `Título:
+                            Artista:
+                            Álbum:`,
+                            `Título:
+                            Artista:
+                            Álbum:`,
+                            `Título:
+                            Artista:
+                            Álbum:`,
+                        ];
+    const listMusic = attributes.map((m) => <li className="listMusic-items">{m}</li>);
 
     return(
-        <ul>
-            {listMusic}
-            {listMusic}
-            {listMusic}
-            {listMusic}
-            {listMusic}
-            {listMusic}
-            {listMusic}
-            {listMusic}
-            {listMusic}
+        <ul className="listMusic-container">
             {listMusic}
         </ul>
     );

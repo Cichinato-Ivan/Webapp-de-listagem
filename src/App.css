@@ -1,9 +1,9 @@
 .container{
-  max-width: 90%;
-  margin: 30px;
+  max-width: 600px;
+  margin: 15px auto;
   overflow: auto;
   text-align: center;
-  min-height: 90%;
+  scroll-behavior: auto;
   border: 2px solid chartreuse;
   padding: 30px;
   border-radius: 10px;
