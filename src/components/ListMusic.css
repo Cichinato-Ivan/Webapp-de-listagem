@@ -5,14 +5,14 @@
 
 .listMusic-items{
     background-color: #444;
-    width: 70px;
+    width: 200px;
     height: 90px;
     margin-bottom: 15px;
-    padding-right: 80px;
     display: flex;
-    text-align: center;
+    text-align: left;
     border: 2px solid chartreuse;
     border-radius: 5px;
     color: #eee;
 }
+
 

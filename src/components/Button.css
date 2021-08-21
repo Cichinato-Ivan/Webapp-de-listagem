@@ -1,0 +1,7 @@
+li .button{
+    width: 30px;
+    height: 30px;
+    margin: 50%;
+    border-radius: 15px;
+    align-content: flex-end;
+}
