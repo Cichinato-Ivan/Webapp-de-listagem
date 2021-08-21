@@ -7,7 +7,8 @@ const Search = () => {
 
     const handleInputChange = (e) => {
         setInputData(e.target.value);
-    }
+        setInputData("");
+    };
 
     return ( 
         <div className="search-container">
