@@ -4,13 +4,14 @@ import './Nav.css';
 const Nav = () => {
     return ( 
         <div className="nav-container">
-            <div className="nav-list">
+            <div>
                 <ul>
-                    <li><a href=""></a>Todos ouvem</li>
-                    <li><a href=""></a>Categorias</li>
-                    <li><a href=""></a>Favoritos</li>
-                    <li><input type="text" /></li>
+                    <li>Top 10</li>
+                    <li>Categorias</li>
+                    <li>Favoritos</li>
+                    <li><input className="input-data" type="text"/></li>
                 </ul>
+                
             </div>
         </div>
      );
