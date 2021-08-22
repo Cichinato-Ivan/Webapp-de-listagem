@@ -1,13 +1,20 @@
 import React from 'react';
 import './App.css';
+import { Col, Container, Row } from 'reactstrap';
 import Header from './components/Header.jsx';
 import Nav from './components/Nav';
 
 function App() {
   return (
     <>
-      <Nav/>
-      <Header/>
+      <Container>
+        <Row>
+          <Col>
+            <Nav/>
+            <Header/>
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 }

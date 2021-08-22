@@ -4,30 +4,3 @@
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
 }
-
-ul{
-    margin-top: 20px;
-    display: block;
-    text-decoration: none;
-    list-style-type: none;
-    border: none;
-}
-
-.input-data{
-    float: right;
-}
-
-ul li{
-    margin: 10px;
-    display: inline;
-    cursor: pointer;
-    color: #eee;
-    font-weight: bold;
-    font-size: large;
-    float: right;
-}
-
-li:hover{
-    margin: 12px;
-    background-color: #1C1C1C;
-}
