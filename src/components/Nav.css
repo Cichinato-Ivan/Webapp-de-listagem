@@ -1,0 +1,10 @@
+.nav-container{
+    height: 100%;
+    /* background-color: #4F4F4F; */
+    border: 1px solid red;
+}
+
+.nav-list{
+    text-align: right;
+    text-decoration: none;
+}
