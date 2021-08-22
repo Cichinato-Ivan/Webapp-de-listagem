@@ -1,0 +1,9 @@
+.header-coontainer{
+    background-image: url(../img/capa.png);
+    background-image: url(../img/ruido.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
