@@ -1,9 +1,16 @@
 .header-container{
+    width: 100%;
     margin-top: 0;
     background-color: rgba(49, 79, 79, 0.9);
     background-image: url(../img/capa.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:inherit;
     background-size: cover;
     height: 70vh;
+}
+
+.nav-container{
+    height: 80px;
+    background-color: 	#FA8072;
+    background-color: rgba(0, 0, 0, 0.7);
 }
