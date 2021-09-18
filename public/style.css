@@ -1,4 +1,9 @@
 body{
-    background-color: #C0C0C0;
+    background-color: #87CEFA;
 }
 
+.nav ul li{
+    text-align: center;
+    text-decoration: none;
+    
+}
