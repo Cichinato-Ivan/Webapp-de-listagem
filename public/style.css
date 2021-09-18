@@ -1,9 +1,25 @@
 body{
     background-color: #87CEFA;
 }
+#logo{
+    margin-left: 15px;
+}
 
-.nav ul li{
+#top-menu ul li{
+    margin-top: 15px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
-    
+    list-style-type: none;
+    display: inline;
+}
+
+#top-menu ul{
+    float: right;
+}
+
+#top-menu ul li:hover{
+    color: ghostwhite;
+    background-color: #363636;
+
 }
