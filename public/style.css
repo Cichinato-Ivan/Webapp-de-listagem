@@ -64,3 +64,6 @@ input[type=text], button[type=submit]{
 
 /* Listas de músicas top 10 e resultados de pesquisas */
 
+table{
+    columns: 2;
+}
