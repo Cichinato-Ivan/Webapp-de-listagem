@@ -12,29 +12,55 @@
 
         <link rel="stylesheet" href="style.css">
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,700&display=swap" rel="stylesheet">
 
         <title>Power Of Music - Favoritos</title>
 
     </head>
 
-    <body>
+    <!-- 
+        1º View:
 
-        <div class="content">
+        Deverá apresentar a lista das principais músicas do momento listadas na Deezer;
+        Também deve existir um campo de pesquisa por texto onde podemos pesquisar por álbum, artista, ou título musical;
+        Quando realizar alguma pesquisa, a listagem inicial deve ser substituída pela listagem referente a pesquisa. (Usar o mesmo componente de listagem)
+
+
+        Os itens da lista devem apresentar:
+
+        Os dados da música como (capa do álbum, título, cantor, duração);
+        Um botão para acessar a musica completa no Deezer;
+        Um botão de play/pause para escutar a prévia da música;
+        Um botão para adicionar a música na lista de músicas favoritas;
+    -->
+
+    <body>
+        
+        <div id="main">
             <div class="menu">
 
                 <header>
                     
-                    <h1>Logo</h1>
+                    <div id="logo">
+                        <img src="../img/logo.png" alt="logo">
+                        <h1>Power Of Music</h1>
+                    </div>
     
                     <div class="nav">
                         <ul>
-                            <li>Novidades</li>
+                            <li>
+                                <a href="news.html">Novidades</a>
+                            </li>  <!--news-->
 
-                            <li>Favoritos</li>
+                            <li>
+                                <a href="favorite.html">Favoritos</a>
+                            </li>  <!--favorite-->
     
-                            <li>Cadastre-se</li>
-    
-                            <li>Login</li>
+                            <li>
+                                <a href="login.html">Login</a>
+                            </li>  <!--login-->
                         </ul>
                     </div>
 
@@ -102,6 +128,7 @@
                 </ul>
 
             </div>
+
         </div>
 
     </body>

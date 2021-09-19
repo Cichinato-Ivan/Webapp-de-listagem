@@ -1,26 +1,36 @@
 body{
     background-color: #87CEFA;
-}
-#logo{
-    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-#top-menu ul li{
-    margin-top: 15px;
-    padding: 15px;
+/* Barra de navegação */
+.nav{
+    display: flex;
+    border: 1px solid red;
+}
+
+.nav-bar a{
+    color: black;
+    padding: 10px;
+    display: inline;
     text-align: center;
     text-decoration: none;
-    list-style-type: none;
-    display: inline;
+    font-size: 1.2em;
 }
 
-#top-menu ul{
+.nav-bar li{
+    margin-right: 10px;
     float: right;
+    list-style-type: none;
+    position: relative;
 }
 
-#top-menu ul li:hover{
+.nav-bar{
+    margin: 0 70px 0 400px;
+}
+
+.nav-bar a:hover{
     color: ghostwhite;
     background-color: #6495ED;
     border-radius: 40px;
-
 }
