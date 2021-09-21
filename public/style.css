@@ -73,9 +73,8 @@ input[type=text], button[type=submit]{
 /* Página de Novidades */
 
 .container-news{
-    columns: 5;
-    align-items: center;
-    text-align: center;
+    margin: auto;
+    display: flex;
 }
 
 .container-news img{
@@ -83,4 +82,6 @@ input[type=text], button[type=submit]{
     height: 250px;
     margin: 30px;
     border-radius: 20px;
+    align-items: center;
+    text-align: center;
 }
