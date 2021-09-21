@@ -69,3 +69,12 @@ input[type=text], button[type=submit]{
     columns: 5;
     align-items: center;
 }
+
+/* Página de Novidades */
+
+.container-news{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    columns: 2;
+}
