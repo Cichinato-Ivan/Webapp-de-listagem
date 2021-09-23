@@ -20,113 +20,64 @@
 
     </head>
 
-    <!-- 
-        1º View:
-
-        Deverá apresentar a lista das principais músicas do momento listadas na Deezer;
-        Também deve existir um campo de pesquisa por texto onde podemos pesquisar por álbum, artista, ou título musical;
-        Quando realizar alguma pesquisa, a listagem inicial deve ser substituída pela listagem referente a pesquisa. (Usar o mesmo componente de listagem)
-
-
-        Os itens da lista devem apresentar:
-
-        Os dados da música como (capa do álbum, título, cantor, duração);
-        Um botão para acessar a musica completa no Deezer;
-        Um botão de play/pause para escutar a prévia da música;
-        Um botão para adicionar a música na lista de músicas favoritas;
-    -->
-
     <body>
         
         <div id="main">
             <div class="menu">
 
-                <header>
+                <header class="nav">
+                        
+                    <a href="index.html">
+                        <img src="../img/cifrão.png" alt="logo" id="logo">
+                    </a>
                     
-                    <div id="logo">
-                        <img src="../img/logo.png" alt="logo">
-                        <h1>Power Of Music</h1>
-                    </div>
-    
-                    <div class="nav">
+                    <div class="nav-bar">
                         <ul>
                             <li>
-                                <a href="news.html">Novidades</a>
-                            </li>  <!--news-->
+                                <a href="login.html">Login</a>
+                            </li>  <!--login-->
 
                             <li>
                                 <a href="favorite.html">Favoritos</a>
                             </li>  <!--favorite-->
-    
+
                             <li>
-                                <a href="login.html">Login</a>
-                            </li>  <!--login-->
+                                <a href="news.html">Novidades</a>
+                            </li>  <!--news-->
                         </ul>
                     </div>
 
                 </header>
 
-                <input type="text" placeholder="Digite álbum, artista ou título.">
-                <button type="submit">Buscar</button>
-
             </div>
 
-            <div class="main-music">
-                <!-- Substituir listagem pela pesquisa do usuário -->
-                <h3>Top 10</h3>
-                <ul>
-                    <li>
-                        título:
-                        artista:
-                        álbum:
-                    </li>
-                    <li>
-                        título:
-                        artista:
-                        álbum:
-                    </li>
-                    <li>
-                        título:
-                        artista:
-                        álbum:
-                    </li>
-                    <li>
-                        título:
-                        artista:
-                        álbum:
-                    </li>
-                    <li>
-                        título:
-                        artista:
-                        álbum:
-                    </li>
-                    <li>
-                        título:
-                        artista:
-                        álbum:
-                    </li>
-                    <li>
-                        título:
-                        artista:
-                        álbum:
-                    </li>
-                    <li>
-                        título:
-                        artista:
-                        álbum:
-                    </li>
-                    <li>
-                        título:
-                        artista:
-                        álbum:
-                    </li>
-                    <li>
-                        título:
-                        artista:
-                        álbum:
-                    </li>
-                </ul>
+            <div class="login">
+                <form action="">
+                    <div class="form-login">
+                        <label for="f-name">Nome: </label>
+                        <input type="text" id="f-name" name="f-name">
+                    </div>
 
+                    <div class="form-login">
+                        <label for="f-email">E-mail: </label>
+                        <input type="email" id="f-email" name="f-email">
+                    </div>
+
+                    <div class="form-login">
+                        <label for="f-password">Senha: </label>
+                        <input type="password" id="f-password" name="f-password">
+                    </div>
+
+                    <div class="form-login">
+                        <input type="submit" value="Login">
+                        <a href="#">Equeceu sua senha?</a>
+                    </div>
+
+                    <p>
+                        Não é usuário? Faça seu <a href="registration.html">Cadastro Agora</a>.
+                    </p>
+
+                </form>
             </div>
 
         </div>
