@@ -1,12 +1,11 @@
 body{
-    background-color: #87CEFA;
+    background-color: #40E0D0;
     font-family: 'Open Sans', sans-serif;
 }
 
 /* Barra de navegação */
 .nav{
     display: flex;
-    border: 1px solid red;
 }
 
 .nav-bar a{
@@ -38,7 +37,6 @@ body{
 /* Formulários */
 
 .search{
-    border: 1px solid blue;
     padding: 30px;
     text-align: center;
 }
@@ -65,13 +63,13 @@ button[type=submit]{
 #login{
     width: 50%;
     margin: 20px auto;
-    border: 3px solid green;
 }
 
 .form{
     margin: auto;
     width: 50%;
-    border: 3px solid yellow;
+    padding: 30px;
+    border: solid #6495ED;
 }
 
 .form-login{
