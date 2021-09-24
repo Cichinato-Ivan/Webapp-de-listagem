@@ -34,6 +34,12 @@ body{
     border-radius: 40px;
 }
 
+/* .photo-profile{
+    background-color: whitesmoke;
+    width: 30px;
+    border-radius: 50%;
+} */
+
 /* Formulários */
 
 .search{
@@ -54,6 +60,10 @@ button[type=submit]{
     cursor: pointer;
 }
 
+button[type=submit]:hover{
+    background-color: #000;
+}
+
 .field, button[type=submit]{
     border-radius: 7px;
     border: ghostwhite;
@@ -69,7 +79,12 @@ button[type=submit]{
     margin: auto;
     width: 50%;
     padding: 30px;
-    border: solid #6495ED;
+    border: 3px solid #000;
+    border-radius: 30px;
+}
+
+.form:hover{
+    border: 3px solid #6495ED;
 }
 
 .form-login{
